@@ -107,5 +107,5 @@
 {"text": "We pretty much invented all produce"},
 {"text": "That's deep. "},
 {"text": "The origin of the lemon is unknown, though lemons are thought to have first grown in\u00a0Assam\u00a0(a region in\u00a0northeast India), northern\u00a0Burma\u00a0or\u00a0China. A genomic study of the lemon indicated it was a hybrid between\u00a0bitter orange\u00a0(sour orange) and\u00a0citron.\n\nCitron (pas citron en fran\u00e7ais) \n\nhttps://en.m.wikipedia.org/wiki/Citron"},
-{"text": "Life, uhhhh, finds a way."},
+{"text": "Life, uhhhh, finds a way."}
 ]
