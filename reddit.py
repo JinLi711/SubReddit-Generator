@@ -6,14 +6,14 @@ reddit = praw.Reddit(client_id='DFv008_q4N3hiQ', client_secret='vA0dVBIxydeISNdE
 
 shower = reddit.subreddit('ShowerThoughts')
 
-textFile = open("thoughts.json", "w")
+textFile = open("other_thoughts.json", "w")
 
 textFile.write('[')
 
 maxLimit = 1000
 counter = 0
 
-for post in shower.top(limit=maxLimit):
+for post in shower.all(limit=maxLimit):
   counter += 1
   print("Processing post " + str(counter) + "/" + str(maxLimit))
   newPost = { 
