@@ -18,8 +18,8 @@
       "locales": {
         "en-US": {
           "name": "Thought Giver",
-          "summary": "Sample Short Description",
-          "description": "Sample Full Description",
+          "summary": "Generates a thought.",
+          "description": "Skill which generates a shower-thought.",
           "examplePhrases": [
             "Alexa open hello world",
             "hello",
