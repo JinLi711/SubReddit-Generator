@@ -2,29 +2,29 @@
   "deploy_settings": {
     "c9": {
       "skill_id": "amzn1.ask.skill.852a3e2b-4920-4973-95bb-b05b98d08580",
-      "was_cloned": false,
+      "was_cloned": true,
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "d17c847a471bd7824568de8d87ae0970"
+          "eTag": "15be31bb500384f1dacc43f33282866c"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "b3d9333505c51933a647386dedb00257"
+            "eTag": "08ad00f38944596a2d4695fc6a211feb"
           }
         },
         "lambda": [
           {
+            "arn": "arn:aws:lambda:us-east-1:791889956469:function:uncommonThoughts-0aaa9d7b8aca",
+            "awsRegion": "us-east-1",
+            "functionName": "uncommonThoughts-0aaa9d7b8aca",
             "alexaUsage": [
               "custom/default"
             ],
-            "arn": "arn:aws:lambda:us-east-1:791889956469:function:serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT",
-            "awsRegion": "us-east-1",
-            "codeUri": "lambda/us-east-1_serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT",
-            "functionName": "serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT",
-            "handler": "index.handler",
-            "revisionId": "5e7c4611-fe18-4ec7-a874-f2a273cd8826",
-            "runtime": "nodejs8.10"
+            "revisionId": "38fe3744-0850-4e26-8ece-1c1e6e2d43e2",
+            "codeUri": "lambda/us-east-1_uncommonThoughts-0aaa9d7b8aca",
+            "handler": "lambda_function.lambda_handler",
+            "runtime": "python3.6"
           }
         ]
       }

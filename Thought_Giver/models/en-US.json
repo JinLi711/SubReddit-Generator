@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "thought giver",
+      "invocationName": "space facts",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -23,11 +23,11 @@
           "name": "GetNewFactIntent",
           "slots": [],
           "samples": [
-            "a item",
-            "an item",
-            "tell me an item",
-            "tell me a item",
-            "give me a item",
+            "a fact",
+            "a space fact",
+            "tell me a fact",
+            "tell me a space fact",
+            "give me a fact",
             "give me a space fact",
             "tell me trivia",
             "tell me a space trivia",

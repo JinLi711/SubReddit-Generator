@@ -3,8 +3,8 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT",
-          "sourceDir": "lambda/us-east-1_serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT"
+          "uri": "uncommonThoughts-0aaa9d7b8aca",
+          "sourceDir": "lambda/us-east-1_uncommonThoughts-0aaa9d7b8aca"
         },
         "interfaces": [
           {
@@ -28,8 +28,8 @@
       "locales": {
         "en-US": {
           "name": "Thought Giver",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/52bb/d9fe68f2251746e9bf7e1d65931edc2b/APP_ICON?versionId=cfDuPMQnH4y48mJ5AgVTEZQxVapWLfvX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550436287&Signature=LtCojai%2BT22kUsHq6i7n0rj1tPw%3D",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9d43/a87b3812c07041229a3b79052e5524c0/APP_ICON_LARGE?versionId=rzxMFXuDDNiQ0vXfW7NWzDSTzwSXTXIh&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550436287&Signature=CormmWg6GfnB6bk3dTNlHZZsRGQ%3D",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/52bb/d9fe68f2251746e9bf7e1d65931edc2b/APP_ICON?versionId=cfDuPMQnH4y48mJ5AgVTEZQxVapWLfvX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550441687&Signature=P5bg%2BJvgF7kh8%2BvDPV%2FGPWpiWSI%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9d43/a87b3812c07041229a3b79052e5524c0/APP_ICON_LARGE?versionId=rzxMFXuDDNiQ0vXfW7NWzDSTzwSXTXIh&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550441687&Signature=ow5UTR2yc9LqT8CU0FqvyR7wz%2BQ%3D",
           "summary": "Generates a thought.",
           "description": "Skill which generates a shower-thought.",
           "examplePhrases": [
