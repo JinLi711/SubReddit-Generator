@@ -7,7 +7,7 @@ const GetNewFactHandler = {
   canHandle(handlerInput) {
     const request = handlerInput.requestEnvelope.request;
     return request.type === 'LaunchRequest' ||
-      (request.type === 'IntentRequest' &&
+      (request.typaske === 'IntentRequest' &&
         request.intent.name === 'GetNewFactIntent');
   },
   handle(handlerInput) {
@@ -257,10 +257,10 @@ const GetNewFactHandler = {
               "textContent": {
                 "primaryText": {
                   "type": "PlainText",
-                  "text": "Here is your thought."
+                  "text": "Here is your item."
                 }
               },
-              "logoUrl": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/52bb/d9fe68f2251746e9bf7e1d65931edc2b/APP_ICON?versionId=cfDuPMQnH4y48mJ5AgVTEZQxVapWLfvX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550436287&Signature=LtCojai%2BT22kUsHq6i7n0rj1tPw%3D"
+              "logoUrl": "https://s3.amazonaws.com/publicorps/movies/icon_108_A2Z.png"
             }
           }
         })
@@ -328,19 +328,19 @@ const ErrorHandler = {
   },
 };
 
-const SKILL_NAME = "Thought Giver";
-const GET_FACT_MESSAGE = "Here's a thought";
-const HELP_MESSAGE = 'You can say tell me a thought ... How can I help you?';
+const SKILL_NAME = "Get Items";
+const GET_FACT_MESSAGE = 'I choose ';
+const HELP_MESSAGE = 'You can say give me an item... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
 const data = [
-  'Shower thought here. 1. Thanks for listening.',
-  'Shower thought here. 2. Thanks for listening.',
-  'Shower thought here. 3. Thanks for listening.',
+  'Rock. Thank you for playing this skill.',
+  'Paper. Thank you for playing this skill.',
+  'Scissors. Thank you for playing this skill.',
 ];
 
-const skillBuilder = Alexa.SkillBuilders.standards();
+const skillBuilder = Alexa.SkillBuilders.standard();
 
 exports.handler = skillBuilder
   .addRequestHandlers(
