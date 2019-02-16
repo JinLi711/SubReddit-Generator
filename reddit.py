@@ -25,7 +25,7 @@ for post in shower.top(limit=10):
     if isinstance(comment, MoreComments):
       continue
     newComment = {
-      'text': comment.body
+      'comment': comment.body
     }
     json.dump(newComment, textFile)
     textFile.write(',\n')
