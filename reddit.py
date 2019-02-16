@@ -6,29 +6,34 @@ reddit = praw.Reddit(client_id='DFv008_q4N3hiQ', client_secret='vA0dVBIxydeISNdE
 
 shower = reddit.subreddit('ShowerThoughts')
 
-textFile = open("thoughts.txt", "w")
+textFile = open("thoughts.json", "w")
 
 textFile.write('[')
 
-for post in shower.top(limit=10):
+maxLimit = 1000
+counter = 0
+
+for post in shower.top(limit=maxLimit):
+  counter += 1
+  print("Processing post " + str(counter) + "/" + str(maxLimit))
   newPost = { 
     'title': post.title,
     'text': post.selftext
   }
   json.dump(newPost, textFile)
   textFile.write(',\n')
-  i = 0
-  for comment in post.comments:
-    i += 1
-    if i > 10:
-      continue
-    if isinstance(comment, MoreComments):
-      continue
-    newComment = {
-      'text': comment.body
-    }
-    json.dump(newComment, textFile)
-    textFile.write(',\n')
+  # i = 0
+  # for comment in post.comments:
+  #   i += 1
+  #   if i > 3:
+  #     continue
+  #  if isinstance(comment, MoreComments):
+  #    continue
+  #  newComment = {
+  #    'comment': comment.body
+  #  }
+  #  json.dump(newComment, textFile)
+  #  textFile.write(',\n')
 
 textFile.write(']')
 
