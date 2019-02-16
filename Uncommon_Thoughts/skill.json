@@ -28,10 +28,10 @@
       "locales": {
         "en-US": {
           "name": "Uncommon Thoughts",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/52bb/d9fe68f2251746e9bf7e1d65931edc2b/APP_ICON?versionId=cfDuPMQnH4y48mJ5AgVTEZQxVapWLfvX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550441964&Signature=U1OjHuaR%2FySNGqcmDO00a1rWZAk%3D",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9d43/a87b3812c07041229a3b79052e5524c0/APP_ICON_LARGE?versionId=rzxMFXuDDNiQ0vXfW7NWzDSTzwSXTXIh&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550441964&Signature=Yz54ezVKuKuBWyT5CdKCjZh6NOA%3D",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/52bb/d9fe68f2251746e9bf7e1d65931edc2b/APP_ICON?versionId=cfDuPMQnH4y48mJ5AgVTEZQxVapWLfvX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550445090&Signature=kYFYIYL%2FIHrxf9l59jeywwsRfb4%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9d43/a87b3812c07041229a3b79052e5524c0/APP_ICON_LARGE?versionId=rzxMFXuDDNiQ0vXfW7NWzDSTzwSXTXIh&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1550445090&Signature=ch%2BwD7GbDquYeqU%2Fvn%2F6q6fKDkU%3D",
           "summary": "Generates a thought.",
-          "description": "Skill which generates a shower-thought.",
+          "description": "Skill which generates a shower-thought using machine learning trained on data from the r/showerthoughts subreddit.",
           "examplePhrases": [
             "Alexa open thought giver",
             "Alexa start thought giver",
@@ -40,7 +40,9 @@
           "keywords": [
             "shower",
             "thoughts",
-            "reddit"
+            "reddit",
+            "thought",
+            "uncommon"
           ]
         }
       },

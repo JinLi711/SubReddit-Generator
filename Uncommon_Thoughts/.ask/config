@@ -6,11 +6,11 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "a39fe68e42db1209cfcc4c187a3f87c5"
+          "eTag": "5fc5c264a258e137ec523bece0d2ed5e"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "08ad00f38944596a2d4695fc6a211feb"
+            "eTag": "9f9be75ed5f9e7452f9386d23054d963"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "lambda/us-east-1_uncommonThoughts-0aaa9d7b8aca",
             "functionName": "uncommonThoughts-0aaa9d7b8aca",
             "handler": "lambda_function.lambda_handler",
-            "revisionId": "fa1f2e43-fb4c-42da-abb9-0da4b4844181",
+            "revisionId": "9b851d0e-46d4-4e0b-b253-335867101489",
             "runtime": "python3.6"
           }
         ]

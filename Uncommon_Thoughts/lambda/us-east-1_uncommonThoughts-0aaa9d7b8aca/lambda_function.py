@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Simple fact sample app."""
+"""Simple shower thought skill."""
 
 import random
 import logging
@@ -18,33 +18,22 @@ from ask_sdk_model import Response
 # =========================================================================================================================================
 # TODO: The items below this comment need your attention.
 # =========================================================================================================================================
-SKILL_NAME = "Space Facts"
-GET_FACT_MESSAGE = "Here's your fact: "
-HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?"
+SKILL_NAME = "Uncommon Thoughts"
+GET_FACT_MESSAGE = "Here's your thought: "
+HELP_MESSAGE = "You can say tell me a thought, or, you can say exit... What can I help you with?"
 HELP_REPROMPT = "What can I help you with?"
 STOP_MESSAGE = "Goodbye!"
-FALLBACK_MESSAGE = "The Space Facts skill can't help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?"
+FALLBACK_MESSAGE = "The Uncommon thoughts skill can't help you with that.  It can give you an uncommon think if you say tell me a thought. What can I help you with?"
 FALLBACK_REPROMPT = 'What can I help you with?'
 EXCEPTION_MESSAGE = "Sorry. I cannot help you with that."
 
 # =========================================================================================================================================
 # TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-python-fact/lambda/data
 # =========================================================================================================================================
-
+# shower_thought = call to function
+shower_thought = "here is shower thought"
 data = [
-  'A year on Mercury is just 88 days long.',
-  'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-  'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-  'On Mars, the Sun appears about half the size as it does on Earth.',
-  'Earth is the only planet not named after a god.',
-  'Jupiter has the shortest day of all the planets.',
-  'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-  'The Sun contains 99.86% of the mass in the Solar System.',
-  'The Sun is an almost perfect sphere.',
-  'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-  'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-  'The temperature inside the Sun can reach 15 million degrees Celsius.',
-  'The Moon is moving approximately 3.8 cm away from our planet every year.',
+  shower_thought,
 ]
 
 # =========================================================================================================================================
@@ -62,7 +51,7 @@ class GetNewFactHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
         return (is_request_type("LaunchRequest")(handler_input) or
-                is_intent_name("GetNewSpaceFactIntent")(handler_input))
+                is_intent_name("GetNewFactIntent")(handler_input))
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
