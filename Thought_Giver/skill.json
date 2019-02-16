@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT",
+          "sourceDir": "lambda/us-east-1_serverlessrepo-showerThou-alexaskillskitnodejsfact-1HXEDNL2B2MCT"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Thought Giver",
+          "summary": "Generates a thought.",
+          "description": "Skill which generates a shower-thought.",
+          "examplePhrases": [
+            "Alexa open thought giver",
+            "Alexa start thought giver",
+            "Alexa begin thought giver"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Ask Alexa to give you a shower thought.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    }
+  }
+}
