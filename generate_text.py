@@ -173,10 +173,10 @@ with open('mapping.json') as infile:
 with open('wordvectors_mini.json') as infile:
     wordvectors_mini = json.load(infile)
 
-def gen_text():
+def gen_text(word):
     try: 
         sentence = text_generate_with_word(
-            model, tokens, word_indices, 'pizza', maxlen=20
+            model, tokens, word_indices, word, maxlen=20
         )
         final_text = ' '.join(sentence)
     except ValueError:
