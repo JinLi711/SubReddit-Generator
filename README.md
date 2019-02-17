@@ -40,6 +40,6 @@ preprocess the text (remove numbers and special characters)
 ## Example
 
 <audio controls preload> 
-    <source src="UT.mp3"> </source>  
+    <source src="https://github.com/JinLi711/SubReddit-Generator/blob/master/UT.mp3"> </source>  
 </audio>
 
