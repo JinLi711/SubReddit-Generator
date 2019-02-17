@@ -1,0 +1,75 @@
+----User Says Start----
+User Says: alexa ask uncommon thoughts to tell me a thought
+----User Says End----
+
+-----Considered Intents Start----
+Considered Intents: [
+  {
+    "name": "GetNewFactIntent",
+    "confirmationStatus": "NONE",
+    "slots": {
+      "beforer": {
+        "name": "beforer",
+        "confirmationStatus": "NONE"
+      }
+    }
+  }
+]
+-----Considered Intents End----
+
+----Json Input Start----
+Json Input: {
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.8405d0bd-4166-497c-8505-14782b832917",
+    "application": {
+      "applicationId": "amzn1.ask.skill.852a3e2b-4920-4973-95bb-b05b98d08580"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AES4CNDVRJZI6Z2W7APL3BNFWLMZTNRCJZM4EX7E26FLDOWHHPIOHEVSIWYSYX7W3FYZTLTUA6TXDZDA7YBWU4CYWP3QS3OSVK74WYD2SN6YBGPDJDVMMUXC2MCLQ7WJI3WRXCITBP6G2Z2VACZGT4MYD2C6LQ73AEAKQI36HJMJHZXNQ5EZGDRZUJA545XAOUJOOQWFBZCQ3JI"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.852a3e2b-4920-4973-95bb-b05b98d08580"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AES4CNDVRJZI6Z2W7APL3BNFWLMZTNRCJZM4EX7E26FLDOWHHPIOHEVSIWYSYX7W3FYZTLTUA6TXDZDA7YBWU4CYWP3QS3OSVK74WYD2SN6YBGPDJDVMMUXC2MCLQ7WJI3WRXCITBP6G2Z2VACZGT4MYD2C6LQ73AEAKQI36HJMJHZXNQ5EZGDRZUJA545XAOUJOOQWFBZCQ3JI"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AFXZKXUPGP4C2HZ7GGKMS4FJAKJP44LED4AIKCHGCBKH2DAABQ25YEXZRJOAUCWYIVJPSNTX7TKBW5RQMF2P7NXSNZWQPTZTXBYQWB76BY5AIF27XLADQSSKA3XBILXN6LLU5L3L5QF4ZPHLO45ZQ4J42OHUIM4FDYCB6IXG54RSXC6XFMLNQ",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjg1MmEzZTJiLTQ5MjAtNDk3My05NWJiLWIwNWI5OGQwODU4MCIsImV4cCI6MTU1MDM4MTIwMSwiaWF0IjoxNTUwMzgwOTAxLCJuYmYiOjE1NTAzODA5MDEsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZYWktYVVBHUDRDMkhaN0dHS01TNEZKQUtKUDQ0TEVENEFJS0NIR0NCS0gyREFBQlEyNVlFWFpSSk9BVUNXWUlWSlBTTlRYN1RLQlc1UlFNRjJQN05YU05aV1FQVFpUWEJZUVdCNzZCWTVBSUYyN1hMQURRU1NLQTNYQklMWE42TExVNUwzTDVRRjRaUEhMTzQ1WlE0SjQyT0hVSU00RkRZQ0I2SVhHNTRSU1hDNlhGTUxOUSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFFUzRDTkRWUkpaSTZaMlc3QVBMM0JORldMTVpUTlJDSlpNNEVYN0UyNkZMRE9XSEhQSU9IRVZTSVdZU1lYN1czRllaVExUVUE2VFhEWkRBN1lCV1U0Q1lXUDNRUzNPU1ZLNzRXWUQyU042WUJHUERKRFZNTVVYQzJNQ0xRN1dKSTNXUlhDSVRCUDZHMloyVkFDWkdUNE1ZRDJDNkxRNzNBRUFLUUkzNkhKTUpIWlhOUTVFWkdEUlpVSkE1NDVYQU9VSk9PUVdGQlpDUTNKSSJ9fQ.COaAsco9rHkNl1nT8dPHjOyYUH8GjCzO9-yXKms_FfQ3r3cbBgKlw4h6cfwrIHlhWoMhUFDhye34NQ8sr2L-m882KdtDiFLCbr4YlJDlPgDm5-1p6HHc8XF4ciLGclQFxxljAwILgvxCVyMd5A8xZBHTCSC6VpzP0ubGZLfFiXzJlU_MFjWCf1HX7cCFYngpgFH6ggLG6TPCIl--LeR-MVgkLAerYZrLb2tsK9TWncq7rJ6E4Vgeg2K70EMm4-d7klhW0PSWMacqttbE-HWjQfkdWMC8pB80tyjg0Z-KD8EvL8izVi7EJkVXlbCR4JWS07nz4a3Ea5WX1IeOPXZGJw"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.cc9f183d-496d-4295-8bda-28d578c4c673",
+    "timestamp": "2019-02-17T05:21:41Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "GetNewFactIntent",
+      "confirmationStatus": "NONE",
+      "slots": {
+        "beforer": {
+          "name": "beforer",
+          "confirmationStatus": "NONE"
+        }
+      }
+    }
+  }
+}
+----Json Input End----
+
+----Json Output Start----
+Json Output: {}
+----Json Output End----
+
+----Alexa Responds Start----
+Alexa Responds: There was a problem with the requested skill's response
+----Alexa Responds End----
+
