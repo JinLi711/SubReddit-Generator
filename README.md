@@ -39,7 +39,6 @@ preprocess the text (remove numbers and special characters)
 
 ## Example
 
-<audio controls preload> 
-    <source src="https://github.com/JinLi711/SubReddit-Generator/blob/master/UT.mp3"> </source>  
-</audio>
+
+<audio src="https://github.com/JinLi711/SubReddit-Generator/blob/master/UT.mp3" controls preload></audio>
 
