@@ -7,7 +7,7 @@ import random
 # import sys
 import pandas as pd
 
-model = load_model('../my_model.h5')
+model = load_model('../../my_model.h5')
 
 
 def sample(preds, temperature=1.0):
@@ -159,7 +159,7 @@ def text_generate_with_word(
 # updated text
 # actually, change it so 
 import re
-text = open('../all.txt', 'r').read()
+text = open('../../all.txt', 'r').read()
 text = text.lower()
 text = re.sub(r'[*^$%&()@#-+_=//]', ' ', text)
 text = re.sub(" \d+", "number", text)
@@ -167,10 +167,10 @@ text = re.sub(r'http\S+', ' ', text)
 
 
 tokens = word_tokenize(text)
-with open('../mapping.json') as infile:
+with open('../../mapping.json') as infile:
     word_indices = json.load(infile)
 
-with open('../wordvectors_mini.json') as infile:
+with open('../../wordvectors_mini.json') as infile:
     wordvectors_mini = json.load(infile)
 
 def gen_text(word):
