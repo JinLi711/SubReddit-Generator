@@ -31,7 +31,7 @@ EXCEPTION_MESSAGE = "Sorry. I cannot help you with that."
 # TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-python-fact/lambda/data
 # =========================================================================================================================================
 # shower_thought = call to function
-shower_thought = "here is shower thought"
+shower_thought = "here is a shower thought"
 data = [
   shower_thought,
 ]
@@ -59,7 +59,8 @@ class GetNewFactHandler(AbstractRequestHandler):
 
         random_fact = random.choice(data)
         speech = GET_FACT_MESSAGE + random_fact
-
+	#desire = handler_input.request_envelope.request.intent.slots["beforer"].value
+	#print desire
         handler_input.response_builder.speak(speech).set_card(
             SimpleCard(SKILL_NAME, random_fact))
         return handler_input.response_builder.response
