@@ -28,3 +28,6 @@ We built a recurrent neural network that uses the scraped Reddit posts as scrape
 
 ## Ask Alexa
 
+Things I need to do:
+preprocess the text (remove numbers and special characters)
+
