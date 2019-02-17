@@ -28,6 +28,12 @@ We built a recurrent neural network that uses the scraped Reddit posts as scrape
 
 ## Ask Alexa
 
+We used AWS lambda to ask users for a keyword that would be used to generate a random, uncommon thought.
+
+1. Create Alexa skill with appropriate intents and slot values.
+2. Have Alexa call the text generator with the user's keyword.
+3. Naturally repeat the sentence back to the user.
+ 
 Things I need to do:
 preprocess the text (remove numbers and special characters)
 
