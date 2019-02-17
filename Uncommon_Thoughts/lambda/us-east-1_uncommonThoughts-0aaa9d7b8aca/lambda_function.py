@@ -3,6 +3,9 @@
 
 import random
 import logging
+# import sys
+# sys.path.insert(0, '../')
+# from generate_text import gen_text
 
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.dispatch_components import (
@@ -31,6 +34,7 @@ EXCEPTION_MESSAGE = "Sorry. I cannot help you with that."
 # TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-python-fact/lambda/data
 # =========================================================================================================================================
 # shower_thought = call to function
+# shower_thought = gen_text("fish")
 shower_thought = "here is a shower thought"
 data = [
   shower_thought,
