@@ -21,13 +21,20 @@
         },
         {
           "name": "GetNewFactIntent",
-          "slots": [],
+          "slots": [
+            {
+              "name": "beforer",
+              "type": "thought_type"
+            }
+          ],
           "samples": [
-            "a thought",
-            "a space thought",
-            "tell me a thought",
-            "tell me a uncommon thought",
-            "give me a thought",
+            "uncommon thought about {beforer}",
+            "thought about {beforer}",
+            "{beforer}  thought",
+            "{beforer} uncommon thought",
+            "tell me {beforer} thought",
+            "tell me a {beforer} uncommon thought",
+            "give me a {beforer} thought",
             "give me an uncommon thought"
           ]
         },
@@ -36,7 +43,28 @@
           "samples": []
         }
       ],
-      "types": []
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "you"
+              }
+            },
+            {
+              "name": {
+                "value": "really"
+              }
+            },
+            {
+              "name": {
+                "value": "anything"
+              }
+            }
+          ],
+          "name": "thought_type"
+        }
+      ]
     }
   }
 }
