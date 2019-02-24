@@ -45,5 +45,7 @@ preprocess the text (remove numbers and special characters)
 ## Creators
 
 Jin Li
+
 Matthew Li
+
 [Alex Oro](https://github.com/alexoro412)
