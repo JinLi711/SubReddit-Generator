@@ -42,3 +42,8 @@ preprocess the text (remove numbers and special characters)
 
 <audio src="https://github.com/JinLi711/SubReddit-Generator/blob/master/UT.mp3" controls preload></audio>
 
+## Creators
+
+Jin Li
+Matthew Li
+[Alex Oro](https://github.com/alexoro412)
